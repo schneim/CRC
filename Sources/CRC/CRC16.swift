@@ -2,7 +2,7 @@
 
 import Foundation
 
-struct CRC16 {
+public struct CRC16 {
     
     var start:UInt16=0
     
