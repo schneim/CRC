@@ -15,7 +15,7 @@ public struct CRC16 {
         self.start = start
     }
     
-    static func crc(data: Data, start:UInt16=0) -> UInt16 {
+   public static func crc(data: Data, start:UInt16=0) -> UInt16 {
         
         var crc:UInt16 = start
         
